@@ -11,12 +11,11 @@ import com.aventstack.extentreports.Status;
 import com.traval.qa.base.TestBaseGD;
 import com.traval.qa.pages.SearchCar;
 import com.traval.qa.pages.SearchHotels;
-
+@Test
 public class SearchCarTest extends TestBaseGD
 {
 	public SearchHotels searchhotels;
 	public SearchCar searchcar;
-	
 	
 	public SearchCarTest()
 

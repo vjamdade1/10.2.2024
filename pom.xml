@@ -67,7 +67,7 @@
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
-			<version>4.15.0</version>
+			<version>4.17.0</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
 		<dependency>
@@ -195,16 +195,20 @@
 					available -->
 					<configuration>
 						<suiteXmlFiles>
-							<suiteXmlFile>resourcesF/master.xml</suiteXmlFile>
+							<suiteXmlFile>resourcesF/Master.xml</suiteXmlFile>
 						</suiteXmlFiles>
 						<properties>
 							<property>
 								<name>usedefaultlisteners</name>
 								<value>false</value>
 							</property>
+							<plugin>
+								<artifactId>maven-jar-plugin</artifactId>
+								<version>3.0.2</version>
+							</plugin>
 							<property>
 								<name>suiteXmlFiles</name>
-								<value>resourcesF/master.xml</value>
+								<value>resourcesF/Master.xml</value>
 							</property>
 						</properties>
 					</configuration>

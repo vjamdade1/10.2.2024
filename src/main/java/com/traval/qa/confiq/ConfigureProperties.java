@@ -18,7 +18,9 @@ public class ConfigureProperties extends TestBaseGD
  public static String LastName1 = faker.name().lastName();
  public static String Phone_Number1  = "7418562820";
  public static String EmailID1  = "Jonson@yopmail.com";
+ //This is for only Hotel page
  public static String Credit_Card_Number1= "4111 1111 1111 1110";
+ //This is for car Page
  public static String Credit_Card_Number2= "4242 4242 4242 4242";
  public static String Month1= "05";
  public static String Year1= "30";
@@ -28,5 +30,13 @@ public class ConfigureProperties extends TestBaseGD
  public static String  Address_22= "Near Vision gardon,New Alaska";
  public static String City1 ="Alaska";
  public static String Postal_Code1="25252";
+ 
+ //This is for login Flow
+ public static String Username= "codyrose@yopmail.com";
+ public static String  OriginalPassword= "Codyrose#123";
+ public static String  WrongPassword= "Codyrose#1234";
+ public static String Name="Cody";
+ 
+ //
  
  }

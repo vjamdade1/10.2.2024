@@ -8,7 +8,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import com.traval.qa.confiq.ConfigureProperties;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
+
 
 public class TestBaseGD
 
